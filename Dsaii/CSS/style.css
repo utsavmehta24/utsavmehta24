@@ -1,0 +1,382 @@
+body {
+  background: url("https://s3-alpha-sig.figma.com/img/cb2a/87f2/886d2b0b79ec558b54a63b91a8361636?Expires=1708300800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=oeKTqXRWOJSkkm~MBVnenMaFLDsdvOHrZcJfncw~AXH5hkx5knuTXoIVXJf-fg0LjiJcgDLfF-SEdl8ABLMivF4MP4JcIY1grtDA791ZMWVqyognNlviQlEayJnLiS3sHdRYhkXpmpCc-qMt3di~wwmBUAkLU4MPYGJs17IX-tBs8oKCCYAYTEpnJgF8Lq2nsNY8jCsZZ8lfSm4NiKp3~doc82-m-SQnI7WFslC9SX8eq4VCHhELI-d5T~6g8ae074YSiKeofekB-Z5OFtzf0V-gkFLvhgm3f5HJkWvqB-syVpzFF37R04e7YXVEJq0aQ614JrN6S0HAnCMifFZgbQ__") no-repeat center center/cover;
+  font-family: "IM Fell Great Primer", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  /* background-color: #333; */
+  /* color: #fff; */
+  color: black;
+  padding: 20px;
+  overflow: hidden;
+  font-family: "IM FELL DW Pica SC", serif;
+}
+
+.date {
+  padding: 0.4rem 0.3rem;
+  font-size: 2rem;
+}
+
+.date span {
+  display: inline-block;
+}
+
+.theme {
+  padding: 0.4rem 0.3rem;
+  font-size: 2rem;
+}
+
+hr {
+  height: 2px;
+  background-color: black;
+  border: none;
+  margin: 3px 0;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 2.4em;
+  font-weight: bold;
+}
+
+.tagline {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 545;
+}
+
+#h-below {
+  font-size: 1.3em;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 1rem;
+  padding: 1rem 1rem;
+}
+
+/* newspaper-layout  */
+
+.newspaper-layout {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 0rem 1rem;
+}
+
+/* left column styles goes here  */
+
+.left-column {
+  /* border-right: 2px solid #ccc; */
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.left-column p::first-letter {
+  font-size: 2.5em;
+}
+
+.left-column h2 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.left-column:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-heading{
+  margin: 3rem;
+  font-size: 3rem;
+
+}
+
+#side-60 {
+  flex: 60;
+  border: 2px solid black;
+
+  /* margin: 1rem 1rem; */
+}
+
+#side-60 p {
+  text-align: justify;
+  padding: 1rem 3rem;
+  line-height: 1.5;
+}
+
+#side-40 {
+  flex: 40;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem 2rem;
+  position: relative;
+}
+
+
+#side-40 img:nth-child(1) {
+  width: 45%;
+  height: 60%;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  top: 1rem;
+  transform: translateY(-60%);
+
+  /* Ensures container size fits content */
+}
+
+.image-container1 {
+  position: relative;
+  display: inline-block;
+  margin-top: 1rem;
+  transform: translateY(-12.5%);
+
+  /*border: 2px black;
+  width: 80%;
+  height: 30%;
+  filter: none;*/
+  /* Ensures container size fits content */
+}
+
+.image-container1 h3 {
+  font-size: 3.5rem;
+  margin-bottom: 3rem;
+}
+
+.image-container1 img {
+  filter: none;
+  width: 50%;
+  height: 10%;
+  border: 2px solid black;
+  margin-top: 5rem;
+}
+
+.m-bottom{
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+.image-button {
+  /*play button hhhh */
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 10px;
+  color: black;
+  /* Button text color */
+  border: 2px solid black;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  /* Added transform transition */
+  opacity: 0;
+  /* Initially hide the button */
+}
+
+.margin {
+  margin-top: 2rem;
+}
+
+.image-button a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: black;
+}
+
+.image-container .image-button {
+  opacity: 1;
+  transform: translate(-50%, -60%);
+  /* Adjust the vertical translation as needed */
+  background: url("https://s3-alpha-sig.figma.com/img/cb2a/87f2/886d2b0b79ec558b54a63b91a8361636?Expires=1708300800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=oeKTqXRWOJSkkm~MBVnenMaFLDsdvOHrZcJfncw~AXH5hkx5knuTXoIVXJf-fg0LjiJcgDLfF-SEdl8ABLMivF4MP4JcIY1grtDA791ZMWVqyognNlviQlEayJnLiS3sHdRYhkXpmpCc-qMt3di~wwmBUAkLU4MPYGJs17IX-tBs8oKCCYAYTEpnJgF8Lq2nsNY8jCsZZ8lfSm4NiKp3~doc82-m-SQnI7WFslC9SX8eq4VCHhELI-d5T~6g8ae074YSiKeofekB-Z5OFtzf0V-gkFLvhgm3f5HJkWvqB-syVpzFF37R04e7YXVEJq0aQ614JrN6S0HAnCMifFZgbQ__") no-repeat center center/cover;
+  /* Show the button when container is hovered */
+}
+
+.image-button:hover {
+  box-shadow: 0 0 100rem rgb(148, 92, 7);
+  /* Button background color on hover */
+  transform: translate(-50%, -70%);
+  /* Adjust the vertical translation as needed */
+}
+
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin: 10px 10px; */
+  padding: 10px 10px;
+  /* border: 2px solid black; */
+}
+
+.image video {
+  border-radius: 30px;
+}
+
+.left-column img {
+  height: 15%;
+  width: 80%;
+  border-radius: 20px;
+}
+
+/* right coloum styles goes here  */
+
+.right-column {
+  border-left: 1px solid #ccc;
+  display: flex;
+  flex-direction: row;
+}
+
+.img-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.small-content {
+  margin: 2rem 2rem;
+  text-align: justify;
+  font-weight: bolder;
+}
+
+.small-content a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.content-right {
+  text-align: justify;
+  margin: 3rem 3rem;
+  font-weight: bolder;
+}
+
+.img-right img {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+/* announcement section style goes here  */
+
+#announcement {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/* social-media secton styles goes here  */
+#social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#icons img {
+  height: 3.5rem;
+  width: 3.5rem;
+  font-size: 1rem;
+}
+
+#icons {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  gap: 1rem;
+  padding: 2rem 2rem;
+  margin: 1rem 1rem;
+}
+
+#icons a {
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+}
+
+/* crossword link page goes here  */
+
+.content1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.question {
+  margin: 5em auto;
+  padding: 2rem;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.content1 a {
+  text-decoration: none;
+  color: black;
+}
+
+.table-points li {
+  text-align: justify;
+}
+
+.table-points1 li {
+  text-align: justify;
+  list-style: circle;
+}
+
+button {
+  margin-bottom: 7em;
+  font-size: 1.5em;
+  padding: 1rem 1rem;
+  border-radius: 20px;
+  background-color: burlywood;
+
+}
+
+article {
+  margin-bottom: 20px;
+}
+
+article p {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+h2,
+h3 {
+  color: #333;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem 1rem;
+}
+
+.table-points {
+  padding: 20px;
+  padding-left: 25px;
+  margin: 20px;
+  line-height: 1.5;
+}
+
+.table-points1 {
+  padding: 20px;
+  margin: 20px;
+  line-height: 1.5;
+}
