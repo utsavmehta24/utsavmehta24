@@ -21,23 +21,16 @@
 ═══════════════════════════════════════════════════════════════════════════
 ```
 
-<br/>
-
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=80&lines=⚡+16%2B+Production+Systems+%7C+Zero+Tutorial+Syndrome;🔥+70%25+Faster+ETL+%7C+%240+Cloud+%7C+85%25+Less+Manual+Work;🚀+Real+Impact+%7C+Real+Metrics+%7C+Real+Business+Value" alt="Status" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2000&pause=800&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=1000&height=100&lines=%E2%9A%A1+Shipped+16%2B+Production+Systems+%7C+Zero+Tutorial+Syndrome;%F0%9F%94%A5+70%25+Faster+ETL+%7C+%240+Cloud+Costs+%7C+85%25+Less+Manual+Work;%F0%9F%9A%80+Real+Data+%7C+Real+ML+%7C+Real+Business+Impact" alt="Dynamic Status" />
 </p>
 
-<p align="center">
-  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/utsav-mehta-462653258/)
 [![Twitter](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Lucid24by7_io)
 [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@utsavmehta24072003)
 [![Email](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:utsavmehta24072003@gmail.com)
-<br/>
 ![Profile Views](https://komarev.com/ghpvc/?username=utsavmehta24&style=for-the-badge&color=blueviolet&label=VISITORS)
 ![Projects](https://img.shields.io/badge/PROJECTS-16+-00D9FF?style=for-the-badge&logo=github)
-
-</p>
 
 ---
 
